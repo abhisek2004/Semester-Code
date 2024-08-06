@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    char[5] x="hello";
+    printf("%d %d" ,sizeof(x),sizeof("hello"));
+    return 0;
+}
+//WAP TO IMPLEMENT THE BINARY SEARCH IN A ARRAY???
+//WAP TO INSERT AN ELEMENT IN A SPECIFIED LOCATION IN THE GIVEN ARRAY??
+//WAP TO MERGE 2 ARRAY&CONSTRUCT A NEW ARRAY???
+//WAP TO PERFORM DELECTION OPERATION ON A SPECIFIED INDEX FOR THE GIVEN ARRAY???
