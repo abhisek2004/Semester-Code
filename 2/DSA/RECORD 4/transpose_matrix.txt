@@ -1,0 +1,7 @@
+Enter the first matrix
+1 7 4 
+0 9 4 
+matrix is
+1 0 
+7 9 
+4 4 
