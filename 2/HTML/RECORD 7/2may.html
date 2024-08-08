@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <script lang="javascript" type="text/javascript">
+            let num = 32243;
+            let res = 0;
+            while (num > 0) {
+                rightmost = num % 10;
+                res = res * 10 + rightmost;
+                num = Math.floor(num / 10);
+            }
+            document.write(res);
+        </script>
+    </body>
+
+</html>
